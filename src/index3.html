@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire II</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="index3.js" defer></script>
+</head>
+<body>
+    <section id="menu">
+        <h2>Menu</h2>
+
+        <label>
+            <input type="checkbox" data-target="liensImages">
+            Liens et Images
+        </label>
+
+        <label>
+            <input type="checkbox" data-target="sectionForm">
+            Formulaire
+        </label>
+
+        <label>
+            <input type="checkbox" data-target="sectionProgression">
+            Progression
+        </label>
+    </section>
+
+    <section id="liensImages">
+        <h1>Lien et images</h1>
+        <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">La page principale de Wikipedia</a>
+        <br>
+        <img src="./images/logo_google.png" alt="logo google">
+    </section>
+
+    <section id="sectionForm">
+        <hr>
+        <form>
+            <h2>Des éléments !</h2>
+            <label for="text" id="labelText"></label>
+            <input type="text" name="text" id="text" placeholder="Premiers pas avec Javascript" size="30px">
+            <br><br>
+
+            <input type="radio" name="choix" value="option1" id="choix1">
+            <label for="choix1">Choix N°1</label>
+            <input type="radio" name="choix" value="option2" id="choix2">
+            <label for="choix2">Choix N°2</label>
+            <input type="radio" name="choix" value="option2" id="choix3">
+            <label for="choix3">Choix N°3</label>
+            <br><br>
+
+            <input type="password" id="motdepasse" name="motdepasse">
+            <br><br>
+
+            <p>0</p><input type="range" id="volume" name="volume" min="0" max="100" value="50"><p id="titreVolume">Volume</p>
+            <br>
+            <p id="afficheVolume"></p>
+            <br><br>
+
+            <label for="maCase" id="labelMaCase">Une case à cocher</label>
+            <input type="checkbox" id="maCase" name="maCase">
+            <br><br>
+
+            <label for="date">Date : </label>
+            <input type="date" id="date" name="date">
+            <br><br>
+
+            <input type="submit" value="Ok" id="submit">
+            <hr>
+        </form>
+    </section>
+
+    <section id="sectionProgression">
+        <h2>Barres de progression</h2>
+        <p>Téléchargement en cours :
+            <progress id="progressBlue" value="50" max="100" min="0" ></progress>
+        </p>
+        <br>
+        <p>Espace disponible :
+            <progress id="progressGreen" value="40" max="100" min="0"></progress>
+        </p>
+        <hr>
+    </section>
+</body>
+</html>

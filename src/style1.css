@@ -1,0 +1,47 @@
+table{
+    border: 1px solid black;
+}
+
+tr{
+    border: 1px solid black;
+
+}
+
+td{
+    border: 1px solid black;
+}
+
+caption{
+    border: 1px solid black;
+}
+
+p{
+    border: 1px solid black;
+}
+
+td p{
+    justify-content: center;
+    text-align: center;
+}
+
+caption p{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    margin: 2px;
+}
+
+#td_euro, #td_dollar, #td_kangourou{
+    align-content: center;
+}
+
+#euro_image, #dollars_image, #kangourou_image{
+    width: 100px;
+    height: 100px;
+}
+
+#convertir{
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

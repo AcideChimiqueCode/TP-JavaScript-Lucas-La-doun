@@ -1,0 +1,30 @@
+img {
+    width: 20%;
+    height: 20%;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+#inputRadio{
+    margin-top: 20px;
+}
+
+#inputVolume{
+    margin-top: 20px;
+}
+
+#progressGreen{
+    width: 100px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+p{
+    display: inline-block;
+}
+
+#afficheVolume{
+    margin-top: 0px;
+}
